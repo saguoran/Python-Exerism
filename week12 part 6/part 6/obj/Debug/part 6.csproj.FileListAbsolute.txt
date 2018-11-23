@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\week12 part 6\part 6\bin\Debug\part 6.exe.config
+C:\Users\Administrator\source\repos\week12 part 6\part 6\bin\Debug\part 6.exe
+C:\Users\Administrator\source\repos\week12 part 6\part 6\bin\Debug\part 6.pdb
+C:\Users\Administrator\source\repos\week12 part 6\part 6\obj\Debug\part 6.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\week12 part 6\part 6\obj\Debug\part 6.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\week12 part 6\part 6\obj\Debug\part 6.exe
+C:\Users\Administrator\source\repos\week12 part 6\part 6\obj\Debug\part 6.pdb
