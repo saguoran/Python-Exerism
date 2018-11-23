@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<!-- Created by: Kangle Jiang 300952654 Assignment 4 Nov. 19th, 2018-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment4</title>
+<meta content="Continuing Education Course, form" name="keywords">
+<meta content="Assignment, Centennial College" name="description">
+<link href="Assignment4.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="all_page">
+	<header>
+		<a href="https://www.centennialcollege.ca">
+		<h1>Centennial College <br>Continuing Education Course/Instructor Evaluation</h1>
+		</a>
+	</header>
+	<form action="mailto:freesadness1226@gmail.com" method="post">
+		<fieldset>
+		<p id="reminder">Please read each statement carefully and consider each 
+		one individually. Use the <strong>computer card</strong> to make your choice 
+		(use a&nbsp; pencil to fill in the space). Give only <strong>one answer</strong> 
+		for each question.</p>
+		<p></p>
+		<label for="txt_course_name"><strong>Course Name/Code:</strong></label>
+		<input id="txt_course_name" name="txt_Couse_name" placeholder="Animation - 3D/6423" required="required" size="50" tabindex="1" type="text"><p>
+		</p>
+		<p><strong>Semester:</strong><label>
+		<input name="opt_semester" tabindex="3" type="radio" value="fall_semester">Fall</label><label>
+		<input checked="checked" name="opt_semester" tabindex="5" type="radio" value="winter_semester">Winter</label><label>
+		<input name="opt_semester" tabindex="7" type="radio" value="spring_or_summer_semester">Spring/Summer</label> &nbsp;<strong>Year:</strong><select name="drop_down_box_year" tabindex="9">
+		<option>2016</option>
+		<option>2017</option>
+		<option selected="">2018</option>
+		<option>2019</option>
+		<option>2020</option>
+		<option>2021</option>
+		</select></p>
+		<p><label><strong>Instructor: </strong>
+		<input name="Text2" placeholder="Joanne Filotti" required="required" size="30" tabindex="11" type="text">
+		</label></p>
+		</fieldset><fieldset>
+		<legend id="instructor">Instructor</legend>
+		How would you rate the instructor's:<br>
+		<p>1. <strong>knowledge</strong> of subject?</p>
+		<p><label>
+		<input checked="checked" name="opt_knowledge" tabindex="13" type="radio" value="knowledge_exc">Excenllent</label><label>
+		<input name="opt_knowledge" tabindex="15" type="radio" value="knowledge_good">Good</label><label>
+		<input name="opt_knowledge" tabindex="17" type="radio" value="knowledge_fair">Fair</label><label>
+		<input name="opt_knowledge" tabindex="19" type="radio" value="knowledge_not_satisfactory">Not 
+		satisfactory</label></p>
+		<p>2. <strong>helpfulness</strong>?</p>
+		<p><label>
+		<input checked="checked" name="opt_helpfulness" tabindex="21" type="radio" value="helpfulness_exc">Excenllent</label><label>
+		<input name="opt_helpfulness" tabindex="23" type="radio" value="helpfulness_good">Good</label><label>
+		<input name="opt_helpfulness" tabindex="25" type="radio" value="helpfulness_fair">Fair</label><label>
+		<input name="opt_helpfulness" tabindex="27" type="radio" value="helpfulness_not_satisfactory">Not 
+		satisfactory</label></p>
+		<p>3. <strong>courtesy and respect</strong> for all students?</p>
+		<p><label>
+		<input checked="checked" name="opt_c&amp;r" tabindex="29" type="radio" value="c&amp;r_exc">Excenllent</label><label>
+		<input name="opt_c&amp;r" tabindex="31" type="radio" value="c&amp;r_good">Good</label><label>
+		<input name="opt_c&amp;r" tabindex="33" type="radio" value="c&amp;r_fair">Fair</label><label>
+		<input name="opt_c&amp;r" tabindex="35" type="radio" value="c&amp;r_not_satisfactory">Not 
+		satisfactory</label></p>
+		<p>4. <strong>communication</strong> skills?</p>
+		<p><label>
+		<input checked="checked" name="opt_comm" tabindex="37" type="radio" value="comm_exc">Excenllent</label><label>
+		<input name="opt_comm" tabindex="39" type="radio" value="comm_good">Good</label><label>
+		<input name="opt_comm" tabindex="41" type="radio" value="comm_fair">Fair</label><label>
+		<input name="opt_comm" tabindex="43" type="radio" value="comm_not_satisfactory">Not 
+		satisfactory</label></p>
+		<p>5. overall <strong>performance</strong>?</p>
+		<p><label>
+		<input checked="checked" name="opt_perfor" tabindex="45" type="radio" value="perfor_exc">Excenllent</label><label>
+		<input name="opt_perfor" tabindex="47" type="radio" value="perfor_good">Good</label><label>
+		<input name="opt_perfor" tabindex="49" type="radio" value="perfor_fair">Fair</label><label>
+		<input name="opt_perfor" tabindex="51" type="radio" value="perfor_not_satisfactory">Not 
+		satisfactory</label></p>
+		</fieldset><fieldset>
+		<legend>Course</legend>
+		<p>6. How would you rate the <strong>course materials</strong>?</p>
+		<p><label>
+		<input checked="checked" name="opt_course_materials" tabindex="53" type="radio" value="course_materials_exc">Excenllent</label><label>
+		<input name="opt_course_materials" tabindex="55" type="radio" value="course_materials_good">Good</label><label>
+		<input name="opt_course_materials" tabindex="57" type="radio" value="course_materials_fair">Fair</label><label>
+		<input name="opt_course_materials" tabindex="59" type="radio" value="course_materials_not_satisfactory">Not 
+		satisfactory</label></p>
+		<p>7. How much did this course meet your <strong>expectations</strong>?</p>
+		<p><label>
+		<input checked="checked" name="opt_expectations" tabindex="61" type="radio" value="expectations_exc">Excenllent</label><label>
+		<input name="opt_expectations" tabindex="63" type="radio" value="expectations_good">Good</label><label>
+		<input name="opt_expectations" tabindex="65" type="radio" value="expectations_fair">Fair</label><label>
+		<input name="opt_expectations" tabindex="67" type="radio" value="expectations_not_satisfactory">Not 
+		satisfactory</label></p>
+		<p>8. How would you rate this course(<strong>overall</strong>)?</p>
+		<p><label>
+		<input checked="checked" name="opt_overall" tabindex="13" type="radio" value="overall_exc">Excenllent</label><label>
+		<input name="opt_overall" tabindex="69" type="radio" value="overall_good">Good</label><label>
+		<input name="opt_overall" tabindex="71" type="radio" value="overall_fair">Fair</label><label>
+		<input name="opt_overall" tabindex="73" type="radio" value="overall_not_satisfactory">Not 
+		satisfactory</label></p>
+		</fieldset><fieldset>
+		<legend>General Information</legend>
+		<p>9. Was the <strong>course outline</strong> reviewed/explained at the 
+		beginning of your course? </p>
+		<p><label>
+		<input checked="checked" name="opt_course_outline" tabindex="75" type="radio" value="course_outline_yes">Yes</label><label>
+		<input name="opt_course_outline" tabindex="77" type="radio" value="course_outline_no">No</label><label>
+		<input name="opt_course_outline" tabindex="79" type="radio" value="course_outline_not_sure"> 
+		Not Sure </label></p>
+		<p>10. Would you <strong>recommend</strong> this course to a friend with 
+		the same interests? </p>
+		<p><label>
+		<input checked="checked" name="opt_recommend" tabindex="81" type="radio" value="recommend_yes">Yes</label><label>
+		<input name="opt_recommend" tabindex="83" type="radio" value="recommend_no">No</label><label>
+		<input name="opt_recommend" tabindex="85" type="radio" value="recommend_not_sure"> 
+		Not Sure </label></p>
+		</fieldset><fieldset>
+		<legend>Any Other Comments</legend>
+		<p><label for="txt_best_thing">11. What is the <strong>best thing</strong> 
+		about this course? </label></p>
+		<p>
+		<input id="txt_best_thing" name="txt_best_thing" placeholder="break time...." size="60" tabindex="87" type="text" /></p>
+		<p><label for="txt_improve">12. How could we <strong>improve</strong> this 
+		course? </label></p>
+		<p>
+		<input id="txt_improve" name="txt_improve" placeholder="lower the difficulty of the test plz..." size="60" tabindex="89" type="text" />
+		</p>
+		<p><label for="txt_other">13. Other:</label></p>
+		<p>
+		<textarea id="txt_other" cols="65" name="txt_other" placeholder="I like the classmates here, they are really nice to me..." rows="3" tabindex="91"></textarea>
+		</p>
+		</fieldset>
+		<p id="submit_bar">
+		<input name="Submit" tabindex="93" type="submit" value="submit" />&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="Reset" tabindex="95" type="reset" value="reset" /></p>
+	</form>
+	<footer>
+		<p><a href="../index.html">back to index</a></p>
+		<p>Thank you! We pay attention to your feedback! <br>Web:<a href="https://www.centennialcollege.ca">www.centennialcollege.ca</a>&nbsp;&nbsp; 
+		Email:<a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centenialcollege.ca</a>
+		</p>
+		<p id="copyright">&copy;&nbsp;Copyright Kangle Jiang 300952654 Assignment 
+		4 fall 2018</p>
+	</footer>
+</div>
+
+</body>
+
+</html>
